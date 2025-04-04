@@ -17,3 +17,13 @@ preguntas = [
         "respuesta_correcta": "C"
     }
 ]
+contador = 0
+print ("="*25)
+print ("     ENCUESTA RIWI     ")
+print ("="*25)
+
+# Mostrar las preguntas y opciones
+for pregunta in preguntas:
+    print(pregunta["pregunta"])
+    for opcion in pregunta["opciones"]:
+        print(opcion)
